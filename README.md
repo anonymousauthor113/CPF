@@ -1,3 +1,5 @@
-# Campaign_Performance_Forecasting
+# Code of "Know in AdVance: Fatigue-aware Multi-task Framework for Campaign Performance Forecasting"
 
-## The original code of the paper "Know in AdVance: Fatigue-aware Multi-task Framework for Campaign Performance Forecasting" is implemented on a tech company's advertising system with many insider APIs. We will soon rewrite the code with the public PyTorch and update this repository. 
+AdVance is a framework for advertisers to estimate the reward and cost of an ad campaign with specific criteria. The framework encompasses two parts: one for predicting the future user traffic volumes, and one for estimation the click/conversion probability and the final winning probability for multiple candidate ads. 
+
+The examplary PyTorch code is splited in two .py files. Due to user privacy and company business interests concerns, we are forbidden to release the bid records. We in the code focus on the main structure of AdVance, which aims to facilitate reader's understanding of the proposed framework. 
